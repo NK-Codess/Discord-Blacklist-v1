@@ -48,7 +48,7 @@ client.on('messageCreate', message => {
 
 client.once("ready", async () => {
 console.log("ready " + client.user.username);
-    client.user.setActivity("Wick Studio", {
+    client.user.setActivity("NK Hub", {
 type: ActivityType.Playing
 });
 });
